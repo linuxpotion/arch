@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-#libva-intel-driver
-
-sudo pacman -S xf86-video-intel xf86-input-synaptics xorg-server vulkan-intel intel-media-driver mesa lib32-mesa vulkan-icd-loader ocl-icd lib32-ocl-icd intel-compute-runtime
