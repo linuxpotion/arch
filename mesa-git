@@ -1,2 +1,3 @@
 [mesa-git]
+SigLevel = Optional
 Server = https://pkgbuild.com/~lcarlier/$repo/$arch
