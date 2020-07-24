@@ -1,6 +1,0 @@
-sudo pacman-key --recv-key 8DC2CE3A3D245E64
-sudo pacman-key --lsign-key 8DC2CE3A3D245E64
-
-[valveaur]
-Server = http://repo.steampowered.com/arch/valveaur
-
