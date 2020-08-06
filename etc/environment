@@ -1,1 +1,2 @@
 LIBVA_DRIVER_NAME=i965
+vblank_mode=0

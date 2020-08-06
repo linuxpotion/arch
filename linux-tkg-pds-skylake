@@ -1,0 +1,8 @@
+# sudo pacman-key --keyserver keys.mozilla.org -r 3056513887B78AEB 8A9E14A07010F7E3
+# sudo pacman-key --lsign-key 3056513887B78AEB
+# sudo pacman-key --lsign-key 8A9E14A07010F7E3 
+
+[chaotic-aur]
+Server = http://lonewolf-builder.duckdns.org/$repo/x86_64
+
+# pacman -Sy linux-tkg-pds-skylake
