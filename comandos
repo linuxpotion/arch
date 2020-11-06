@@ -1,4 +1,0 @@
-systemctl disable speech-dispatcher.service
-systemctl disable ModemManager.service
-systemctl disable bluetooth.service
-hdparm -W0 /dev/sda
