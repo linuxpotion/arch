@@ -1,12 +1,9 @@
-$mount /dev/vda3 /mnt
-$ btrfs subvolume create /mnt/@
-$ btrfs subvolume create /mnt/@home
-$ btrfs subvolume create /mnt/@var
-$ btrfs subvolume create /mnt/@snapshots
-$ umount /mnt
-$ mount -o noatime,compress=lzo,space_cache,subvol=@ /dev/vda3 /mnt
-$ mkdir -p /mnt/{boot/efi,home,var,.snapshots}
-$ mount -o noatime,compress=lzo,space_cache,subvol=@home /dev/vda3 $ /mnt/home
-$ mount -o noatime,compress=lzo,space_cache,subvol=@var /dev/vda3 /mnt/var
-$ mount -o noatime,compress=lzo,space_cache,subvol=@snapshots /dev/vda3 /mnt/.snapshots
-$ mount /dev/vda1 /mnt/boot/efi
+mount /dev/sda2 /mnt
+btrfs subvolume create /mnt/@
+btrfs subvolume create /mnt/@snapshots
+umount /mnt
+mkdir -p /mnt/{boot/efi,home,.snapshots}
+mount -o noatime,compress=lzo,space_cache,subvol=@ /dev/sda2 /mnt
+mount -o noatime,compress=lzo,space_cache,subvol=@snapshots /dev/sda2 /mnt/.snapshots
+mount /dev/sda3 /mnt/home
+mount /dev/sda1 /mnt/boot/efi
