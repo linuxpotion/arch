@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+pacman-key --keyserver hkp://keyserver.ubuntu.com --recv-keys 5EE46C4C
+pacman-key --lsign-key 5EE46C4C

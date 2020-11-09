@@ -1,0 +1,4 @@
+nohang-git
+zramswap
+ananicy-git
+#cat /sys/block/sda/queue/scheduler

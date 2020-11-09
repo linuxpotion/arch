@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-sudo pacman-key --keyserver hkp://keyserver.ubuntu.com -r 3056513887B78AEB 8A9E14A07010F7E3
-sudo pacman-key --lsign-key 3056513887B78AEB
-sudo pacman-key --lsign-key 8A9E14A07010F7E3

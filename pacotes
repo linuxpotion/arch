@@ -1,13 +1,15 @@
 mtools
 dosfstools
+
 xf86-video-intel 
 xorg-server 
 intel-media-driver
 intel-compute-runtime 
-adriconf 
-x86_energy_perf_policy 
 mesa-git 
 lib32-mesa-git 
 llvm-git 
 lib32-llvm-git 
 vkd3d-git
+adriconf 
+
+x86_energy_perf_policy 
